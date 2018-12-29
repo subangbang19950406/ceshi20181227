@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+        <button id="addDiv" type="button">点我添加新元素</button>
+        <script>
+        window.onload=function(){
+            var p = document.createElement("p")
+            p.innerHTML = 'bang'
+            p.className = "sb"
+        //    document.getElementById("addDiv").onclick=function(){
+        //       var div=document.createElement("div");
+        //       div.innerHTML="我是新添加的div，点我看看会发生什么";
+        //       div.onclick=function(){
+        //          alert ("你好，提前祝你新年快乐！");
+        //       }
+        //       document.body.appendChild(div);
+        //    }
+        document.body.appendChild(p);
+        var ps = document.querySelector(".sb")
+        p.onclick=function(){
+            alert("bbangbang")
+        }
+        }
+        </script>
+</body>
+
+</html>

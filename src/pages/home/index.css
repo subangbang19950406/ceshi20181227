@@ -1,0 +1,10 @@
+/* @import './../../style/default.less';  */
+/* css,less里的文件此处必须打分号 */
+.home-wrap{
+    background-color:#fff;;
+    height: calc(62vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}

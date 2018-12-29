@@ -1,0 +1,7 @@
+.Login {
+    background: url('../../config/image/1545187971.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
